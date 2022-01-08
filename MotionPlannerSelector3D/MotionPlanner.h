@@ -19,6 +19,8 @@
 #include <fstream>
 #include <ostream>
 
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
 

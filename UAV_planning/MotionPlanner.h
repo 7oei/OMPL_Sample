@@ -20,6 +20,11 @@
 #include <fstream>
 #include <ostream>
 
+#include <boost/numeric/ublas/vector.hpp>
+#include <boost/numeric/ublas/matrix.hpp>
+#include <boost/numeric/ublas/io.hpp>
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
 

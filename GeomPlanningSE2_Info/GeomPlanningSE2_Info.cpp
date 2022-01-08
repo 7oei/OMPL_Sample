@@ -17,6 +17,8 @@ Visualize: plot the following files:
 #include <iostream>
 #include <fstream>
 
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
 

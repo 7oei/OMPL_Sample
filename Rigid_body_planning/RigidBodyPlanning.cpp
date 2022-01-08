@@ -46,6 +46,8 @@
 #include <fstream>
 #include <ostream>
 
+#include <boost/bind.hpp>
+
 using namespace std;
 
 namespace ob = ompl::base;

@@ -20,6 +20,8 @@
 #include <ostream>
 #include <ompl/base/objectives/PathLengthOptimizationObjective.h>
 
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
 

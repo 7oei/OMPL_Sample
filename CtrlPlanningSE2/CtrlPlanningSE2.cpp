@@ -9,6 +9,8 @@
 #include <iostream>
 #include <fstream>
 
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 ///>>>CHANGE
 namespace oc = ompl::control;

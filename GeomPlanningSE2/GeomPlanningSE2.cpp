@@ -4,6 +4,8 @@
 #include <iostream>
 #include <fstream>
 
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
 

@@ -11,6 +11,8 @@ Visualize: plot "path.dat" (sequence of x,y,yaw)
 #include <iostream>
 #include <fstream>
 
+#include <boost/bind.hpp>
+
 namespace ob = ompl::base;
 namespace og = ompl::geometric;
 
